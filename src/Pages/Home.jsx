@@ -41,9 +41,9 @@ function Home() {
   return (
     <main>
       <section id="home"><Hero /></section>
-      <section id="about"><About /></section>
+      {/* <section id="about"><About /></section>
       <section id="services"><Services /></section>
-      <section id="track-request"><TrackRequest /></section>
+      <section id="track-request"><TrackRequest /></section> */}
       <section id="location"><Location /></section>
     </main>
   );
