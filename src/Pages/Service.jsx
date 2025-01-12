@@ -74,7 +74,7 @@ const Service = () => {
         <section className="min-h-screen w-full bg-slate-50">
             <div className="w-full">
                 {/* Header Section */}
-                <div className="w-full bg-slate-50 py-8 md:py-16">
+                <div className="w-full bg-slate-50 pb-8 md:py-16">
                     <div className="text-center px-4">
                         <p className="text-xl text-green-700 mt-24">Services</p>
                         <p className="mt-4 text-2xl md:text-4xl font-bold text-green-700 px-0 lg:px-24">
@@ -110,7 +110,7 @@ const Service = () => {
                 {/* Form Section */}
                 <div className="w-full bg-slate-50 py-8">
                     <div className="max-w-7xl mx-auto px-4">
-                        <div className="bg-white p-4 md:p-6 rounded-lg shadow-md">
+                        <div className="bg-white p- md:p-  shad">
                             {renderForm()}
                         </div>
                     </div>

@@ -217,7 +217,7 @@ function FirtsTimeJobSeeker() {
 
   return (
     <section className='mt-24 mb-10'>
-      <div className='px-5 h-fit flex justify-center flex-wrap gap-10'>
+      <div className='h-fit flex justify-center flex-wrap gap-10'>
         <div className='w-96 h-fit mt-5 p-5 shadow-lg '>
           <div className='w-full h-96 bg-white '>
             <img src={BarangayClearance} alt="Barangay Clearance" onClick={handleImageClick} className='cursor-pointer w-full h-full object-fit' />
@@ -260,7 +260,7 @@ function FirtsTimeJobSeeker() {
               <input type="text" placeholder="House No. / Street / Subd Village" className="p-2 border border-black outline-green-500 w-full" value={address} onChange={handleAddress} />
             </div>
 
-            <div className="w-full flex gap-5 px-3">
+            <div className="w-full flex gap-3 px-3">
               <div className='w-full'>
                 <label htmlFor="" className='text-gray-700 text-sm'>Birthday:</label>
                 <input type="date" className="p-2 border border-black outline-green-500 w-full" value={birthday} onChange={handleBirthday} />
@@ -272,7 +272,7 @@ function FirtsTimeJobSeeker() {
               </div>
             </div>
 
-            <div className="w-full flex gap-5 px-3">
+            <div className="w-full flex gap-3 px-3">
               <div className='w-full'>
                 <label htmlFor="" className='text-gray-700 text-sm'>Gender:</label>
                 <select name="" id="" className="p-2 border border-black outline-green-500 w-full" value={gender} onChange={handleGender}>
@@ -296,9 +296,7 @@ function FirtsTimeJobSeeker() {
               </div>
             </div>
 
-            
-
-            <div className="w-full flex gap-5 px-3">
+            <div className="w-full flex flex-col md:flex-row md:gap-3 gap-2 px-3">
               <div className="w-full ">
                 <label htmlFor="education" className="text-gray-700 text-sm">Educational Attainment:</label>
                 <select id="education" className="p-2 border border-black outline-green-500 w-full" value={education} onChange={handleEducation}>
@@ -320,7 +318,7 @@ function FirtsTimeJobSeeker() {
               </div>
             </div>
 
-            <div className="w-full flex gap-5 px-3">
+            <div className="w-full flex flex-col md:flex-row md:gap-3 gap-2 px-3">
               <div className="w-full ">
                 <label htmlFor="" className="text-gray-700 text-sm">Contact Number:</label>
                 <input type="text" placeholder="Enter Contact Number" className="p-2 border border-black outline-green-500 w-full" value={contactNumber} onChange={handleContactNumber} />
