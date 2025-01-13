@@ -141,7 +141,7 @@ function Announcement() {
 
           <div className='flex flex-col flex-wrap justify-center items-center gap-6 p-6 w-full max-w-screen-2xl mx-auto'>
             {currentAnnouncements.map((announcement, index) => (
-              <div key={index} className='flex flex-col sm:flex-row w-[70%] h-fit bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105'>
+              <div key={index} className='flex flex-col sm:flex-row md:w-[70%] w-full h-fit bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105'>
                 <img src={announcement.imageUrl || DefaultPicture} alt={announcement.title} className='w-full sm:w-52 h-52 sm:h-auto object-fit' />
                 <div className='flex flex-col justify-between p-4 flex-1'>
                   <div>
