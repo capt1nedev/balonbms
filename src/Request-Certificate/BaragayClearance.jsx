@@ -341,7 +341,7 @@ function BarangayClearance() {
 
             <div className="w-full flex flex-col gap-y-1 px-3">
               <label htmlFor="" className='text-gray-700 text-sm'>Purpose:</label>
-              <textarea name="" id="" rows={6} placeholder="Please state the purpose on what purpose you need the certificate." className="noResize border border-black p-2 outline-green-500 w-full" style={{ resize: 'none' }} value={purpose} onChange={handlePurpose}></textarea>
+              <textarea name="" id="" rows={6} placeholder="Please state the purpose for which you need the certificate." className="noResize border border-black p-2 outline-green-500 w-full" style={{ resize: 'none' }} value={purpose} onChange={handlePurpose}></textarea>
             </div>
 
             <div className="px-3 w-full">
