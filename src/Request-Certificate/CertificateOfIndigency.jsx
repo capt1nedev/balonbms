@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import BarangayClearance from '../Images/Certificate-Picture/Certificate of Indigency-1.png'
+import BarangayClearance from '../Images/Certificate-Picture/indigency-1.png'
 import '../App.css';
 import axios from 'axios';
 import SubmitModal from '../Modal/SubmitModal';
@@ -153,7 +153,7 @@ function CertificateOfIndigency() {
 
   return (
     <section className='mt-24 mb-10'>
-      <div className='px-5 h-fit flex justify-center flex-wrap gap-10'>
+      <div className='h-fit flex justify-center flex-wrap gap-10'>
         <div className='w-96 h-fit mt-5 p-5 shadow-lg '>
           <div className='w-full h-96 bg-white '>
             <img src={BarangayClearance} alt="Barangay Clearance" onClick={handleImageClick} className='cursor-pointer w-full h-full object-fit' />

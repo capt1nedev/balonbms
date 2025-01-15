@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FaSpinner } from 'react-icons/fa'; // Import the Font Awesome spinner icon
-import BrgyClearance from '../Images/Certificate-Picture/Barangay Clearance-1.png'
+import BrgyClearance from '../Images/Certificate-Picture/barangayClearance-1.png'
 import '../App.css';
 import axios from 'axios';
 
@@ -232,7 +232,7 @@ function BarangayClearance() {
 
   return (
     <section className='mt-24 mb-10'>
-      <div className='px-5 h-fit flex justify-center flex-wrap gap-10'>
+      <div className='h-fit flex justify-center flex-wrap gap-10'>
         <div className='w-96 h-fit mt-5 p-5 shadow-lg '>
           <div className='w-full h-96 bg-white '>
             <img src={BrgyClearance} alt="Barangay Clearance" onClick={handleImageClick} className='cursor-pointer w-full h-full object-fit' />
@@ -275,7 +275,7 @@ function BarangayClearance() {
               <input type="text" placeholder="House No. / Street / Subd Village" className="p-2 border border-black outline-green-500 w-full" value={address} onChange={handleAddress} />
             </div>
 
-            <div className="w-full flex gap-5 px-3">
+            <div className="w-full flex gap-3 px-3">
               <div className='w-full'>
                 <label htmlFor="" className='text-gray-700 text-sm'>Gender:</label>
                 <select name="" id="" className="p-2 border border-black outline-green-500 w-full" value={gender} onChange={handleGender}>
@@ -291,7 +291,7 @@ function BarangayClearance() {
               </div>
             </div>
 
-            <div className="w-full flex gap-5 px-3">
+            <div className="w-full flex flex-col md:flex-row md:gap-3 gap-2 px-3">
               <div className='w-full'>
                 <label htmlFor="" className='text-gray-700 text-sm'>Birthday:</label>
                 <input type="date" className="p-2 border border-black outline-green-500 w-full" value={birthday} onChange={handleBirthday} />
@@ -303,7 +303,7 @@ function BarangayClearance() {
               </div>
             </div>
 
-            <div className='w-full flex gap-5 px-3'>
+            <div className='w-full flex gap-3 px-3'>
               <div className="w-full">
                 <label htmlFor="civilStatus" className='text-gray-700 text-sm'>Civil Status:</label>
                 <select name="" id="civilStatus" className="p-2 border border-black outline-green-500 w-full" value={civilStatus} onChange={handleCivilStatus}>

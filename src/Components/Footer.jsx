@@ -54,10 +54,11 @@ function Footer() {
         <nav className="lg:mx-auto">
           <h6 className="text-xl uppercase font-bold text-green-100">Quick Links</h6>
           <NavLink to={"/"} className="link link-hover">Home</NavLink>
-          <NavLink to={"/pages/about"} className="link link-hover">About</NavLink>
           <NavLink to={"/pages/service"} className="link link-hover">Services</NavLink>
-          <NavLink to={"/pages/news"} className="link link-hover">News</NavLink>
-          <NavLink to={"/pages/faq"} className="link link-hover">FAQ</NavLink>
+          <NavLink to={"/pages/about"} className="link link-hover">History</NavLink>
+          <NavLink to={"/pages/news"} className="link link-hover">Announcements</NavLink>
+          <NavLink to={"/pages/accomplishment"} className="link link-hover">Accomplishments</NavLink>
+          <NavLink to={"/pages/faq"} className="link link-hover">FAQ's</NavLink>
 
           {/* <NavLink to={"/pages/track-request"} className="link link-hover">Track Request</NavLink> */}
         </nav>
